@@ -1,0 +1,11 @@
+<h1>Secure Field Plugin Settings</h1>
+
+<div class="field">
+    <div class="heading">
+        <label for="secureFieldKey">Enter a custom encryption key:</label>
+        <p class="instructions">If not provided the key will be the same as the one used by craft.</p>
+    </div>
+    <div class="input">
+        <input class="text fullwidth" type="text" id="secureFieldKey" name="secureFieldKey" value="{% if config_settings.secureFieldKey is not null %}{{ config_settings.secureFieldKey }}{% endif %}">
+    </div>
+</div>
