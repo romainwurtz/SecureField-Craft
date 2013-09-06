@@ -1,6 +1,12 @@
 <?php
-
 namespace Craft;
+
+/**
+ * Secure Field
+ *
+ * @author    Romain Wurtz
+ * @link      http://www.t3kila.com
+ */
 
 class SecureFieldPlugin extends BasePlugin
 {
